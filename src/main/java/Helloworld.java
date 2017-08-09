@@ -5,4 +5,3 @@ class Helloworld
 		
 	}
 }
-TEST

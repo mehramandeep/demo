@@ -1,5 +1,6 @@
 language: c
-script: "gcc -o hello src/hello/c/hello.c -I."
+#script: "gcc -o hello src/hello/c/hello.c -I."
+script: "./gradlew clean build"
 compiler: gcc
 notifications:
   email:

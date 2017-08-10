@@ -2,11 +2,13 @@ language: c
 #script: "gcc -o hello src/hello/c/hello.c -I."
 script: "./gradlew clean build"
 compiler: gcc
+
 notifications:
   email:
     recipients:
       - mmehra.aws@gmail.com
       - mandeep.mehra.2012@gmail.com
+      - vishal.kaushik2@gmail.com
     on_success: change  # default: change
     on_failure: always # default: always
 
